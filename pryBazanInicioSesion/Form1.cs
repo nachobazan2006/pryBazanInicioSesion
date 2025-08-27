@@ -7,10 +7,11 @@ namespace pryBazanInicioSesion
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 ventanaform1 = new Form1();   
-            ventanaform1.ShowDialog();  
+            Form2 ventanaform2 = new Form2();   
+            ventanaform2.ShowDialog();  
         }
     }
 }
