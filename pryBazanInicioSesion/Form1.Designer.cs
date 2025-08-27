@@ -40,18 +40,18 @@
             label1.AutoSize = true;
             label1.Location = new Point(316, 138);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(47, 15);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Usuario";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(314, 184);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(67, 15);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Contraseña";
             // 
             // textBox1
             // 
@@ -73,7 +73,7 @@
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 4;
-            button1.Text = "button1";
+            button1.Text = "Aceptar";
             button1.UseVisualStyleBackColor = true;
             // 
             // Form1
