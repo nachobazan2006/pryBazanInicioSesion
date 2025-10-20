@@ -21,5 +21,19 @@ namespace pryBazanInicioSesion
         {
 
         }
+        
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+           string Usuario = txtUsuario.Text;
+           string Contraseña = txtContraseña.Text;
+            if (Usuario == DatosUsuario.Usuario && Contraseña == DatosUsuario.Contraseña)
+              {
+                MessageBox.Show("¡Inicio de sesión exitoso!", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+              }
+              else
+              {
+                MessageBox.Show("Usuario o contraseña incorrectos. Intente nuevamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
