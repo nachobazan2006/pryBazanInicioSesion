@@ -76,13 +76,16 @@
             // txtContraseña
             // 
             txtContraseña.Location = new Point(44, 249);
+            txtContraseña.MaxLength = 10;
             txtContraseña.Name = "txtContraseña";
             txtContraseña.Size = new Size(325, 39);
             txtContraseña.TabIndex = 3;
+            txtContraseña.UseSystemPasswordChar = true;
             // 
             // txtUsuario
             // 
             txtUsuario.Location = new Point(44, 126);
+            txtUsuario.MaxLength = 10;
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(325, 39);
             txtUsuario.TabIndex = 2;
