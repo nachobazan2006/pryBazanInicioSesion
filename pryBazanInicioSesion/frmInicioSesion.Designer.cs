@@ -1,6 +1,6 @@
 ﻿namespace pryBazanInicioSesion
 {
-    partial class Form1
+    partial class frmInicioSesion
     {
         /// <summary>
         ///  Required designer variable.
@@ -77,18 +77,19 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Form1
+            // frmInicioSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Silver;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "frmInicioSesion";
+            Text = "Inicio de sesion ";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -1,6 +1,6 @@
 ﻿namespace pryBazanInicioSesion
 {
-    partial class Form2
+    partial class frmPrograma
     {
         /// <summary>
         /// Required designer variable.
@@ -42,15 +42,15 @@
             label1.TabIndex = 0;
             label1.Text = "Bienvenido al programa";
             // 
-            // Form2
+            // frmPrograma
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
-            Name = "Form2";
-            Text = "Form2";
+            Name = "frmPrograma";
+            Text = "Programa";
             Load += Form2_Load;
             ResumeLayout(false);
             PerformLayout();

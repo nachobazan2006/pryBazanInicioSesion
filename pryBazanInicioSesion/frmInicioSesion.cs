@@ -1,8 +1,8 @@
 namespace pryBazanInicioSesion
 {
-    public partial class Form1 : Form
+    public partial class frmInicioSesion : Form
     {
-        public Form1()
+        public frmInicioSesion()
         {
             InitializeComponent();
         }
@@ -10,7 +10,7 @@ namespace pryBazanInicioSesion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 ventanaform2 = new Form2();   
+            frmPrograma ventanaform2 = new frmPrograma();   
             ventanaform2.ShowDialog();  
         }
     }
