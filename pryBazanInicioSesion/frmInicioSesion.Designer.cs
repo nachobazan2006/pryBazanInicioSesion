@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicioSesion));
             label1 = new Label();
             label2 = new Label();
             txtUsuario = new TextBox();
@@ -35,8 +36,8 @@
             button1 = new Button();
             groupBox1 = new GroupBox();
             btnSalir = new Button();
-            lblConfirmar = new Label();
             txtContraseñaConfirmada = new TextBox();
+            lblConfirmar = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -111,6 +112,13 @@
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
             // 
+            // txtContraseñaConfirmada
+            // 
+            txtContraseñaConfirmada.Location = new Point(47, 305);
+            txtContraseñaConfirmada.Name = "txtContraseñaConfirmada";
+            txtContraseñaConfirmada.Size = new Size(239, 39);
+            txtContraseñaConfirmada.TabIndex = 5;
+            // 
             // lblConfirmar
             // 
             lblConfirmar.AutoSize = true;
@@ -120,13 +128,6 @@
             lblConfirmar.TabIndex = 4;
             lblConfirmar.Text = "Confirmar contraseña";
             // 
-            // txtContraseñaConfirmada
-            // 
-            txtContraseñaConfirmada.Location = new Point(47, 305);
-            txtContraseñaConfirmada.Name = "txtContraseñaConfirmada";
-            txtContraseñaConfirmada.Size = new Size(239, 39);
-            txtContraseñaConfirmada.TabIndex = 5;
-            // 
             // frmInicioSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -134,6 +135,7 @@
             BackColor = Color.Silver;
             ClientSize = new Size(603, 541);
             Controls.Add(groupBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmInicioSesion";
             Text = "Inicio de sesion ";
             groupBox1.ResumeLayout(false);
